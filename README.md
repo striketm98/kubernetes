@@ -33,6 +33,7 @@ Easily integrate and support 3rd party apps
 A Couple 
 Key Concepts...
 
+
 Pods
 Atomic unit or smallest “unit of work”of Kubernetes.
 Pods are one or MORE containers that share volumes, a network namespace, and are a part of a single context.
@@ -43,7 +44,21 @@ static cluster IP
 static namespaced DNS name
 
 
+Master: A Kubernetes Master is where control API calls for the pods, replications controllers, services, nodes and other components of a Kubernetes cluster are executed.
+Node: A Node is a system that provides the run-time environments for the containers. A set of container pods can span multiple nodes.
+The minimum requirements for the viable setup are:
 
+Memory: 2 GiB or more of RAM per machine
+CPUs: At least 2 CPUs on the control plane machine.
+Internet connectivity for pulling containers required (Private registry can also be used)
+Full network connectivity between machines in the cluster – This is private or public
+Install Kubernetes Cluster on Ubuntu 20.04
+My Lab setup contain three servers. One control plane machine and two nodes to be used for running containerized workloads. You can add more nodes to suit your desired use case and load, for example using three control plane nodes for HA.
+
+Server Type	Server                      Hostname	Specs
+Master	k8s-master01.tamalmazumder.com	4GB Ram,  2vcpus
+Worker	k8s-worker01.tamalmazumder.com	4GB Ram,  2vcpus
+Worker	k8s-worker02.tamalmazumder.com	4GB Ram,  2vcpus
 
 #os:                    ubuntu 20.0.4 LTS
 #system Requried:       cpu(2) & ram(2GB)  <master node>
