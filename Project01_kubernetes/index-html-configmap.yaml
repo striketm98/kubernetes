@@ -1,0 +1,46 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: index-html-configmap
+  namespace: default
+data:
+  index.html: |
+    <html>
+
+    <head>
+      <title>Tata Consultancy Service Ltd.</title>
+    </head>
+
+    <body>
+
+    <h1>Welcome to Kubernetes Session: 01</h1> 
+    <h2>Thanks for Join!</h2>
+    <p>By</p>
+    <p>Tamal Kanti mazumder</p>
+    <p>Cyber Security Team | Tata Consultancy Service Ltd.</p>
+  
+    <h3> Please Share your valuable feedback:<h4>
+    
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">Excellent</label><br>
+    
+    input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="css">Good</label><br>
+
+    <input type="radio" id="javascript" name="fav_language" 
+    value="JavaScript">
+    <label for="javascript">Poor</label><br><br>
+
+    <form action="/action_page.php">
+    <label for="uname"><b>Name:</b><br>
+    <input type="text" placeholder="Enter Username" name="uname" required><br><br>
+    <label for="uname"><b>Employee ID:</b></label><br>
+    <input type="text" placeholder="Enter Username" name="uname" required><br><br>
+    <label for="uname"><b>mail ID:</b></label><br>
+    <input type="text" placeholder="Enter Username" name="uname" 
+    required><br><br>
+    <button type="submit">Submit</button>
+    <label>
+    </form>
+    </body>
+    </html> 
