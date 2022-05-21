@@ -1,47 +1,44 @@
 
 
-What is Kubernetes?
+Kubernetes:
 1.Project that was spun out of Google as an open source container orchestration platform.
 2.Built from the lessons learned in the experiences of developing and running Google’s Borg and Omega.
 3.Designed from the ground-up as a loosely coupled collection of components centered around deploying, maintaining and scaling workloads.
 
-What Does Kubernetes do?
+Kubernetes main requirement:
 *Known as the linux kernel of distributed systems.
 *Abstracts away the underlying hardware of the nodes and provides a uniform interface for workloads to be both deployed and consume the shared pool of resources.
 *Works as an engine for resolving state by converging actual and the desired state of the system.
 
-Decouples Infrastructure and Scaling
-All services within Kubernetes are natively Load Balanced.
-Can scale up and down dynamically.
-Used both to enable self-healing and seamless upgrading or rollback of applications.
+Decouples Infrastructure and Scaling:
+*All services within Kubernetes are natively Load Balanced.
+*Can scale up and down dynamically.
+*Used both to enable self-healing and seamless upgrading or rollback of applications.
 
-Self Healing
-Kubernetes will ALWAYS try and steer the cluster to its desired state.
+Self Healing:
+*Kubernetes will ALWAYS try and steer the cluster to its desired state.
 
-Me: “I want 3 healthy instances of redis to always be running.”
-Kubernetes: “Okay, I’ll ensure there are always 3 instances up and running.”
-Kubernetes: “Oh look, one has died. I’m going to attempt to spin up a new one.”
-
-What can Kubernetes REALLY do?
+*Kubernetes REALLY do?
 Autoscale Workloads
-Blue/Green Deployments
-Fire off jobs and scheduled cronjobs
-Manage Stateless and Stateful Applications
-Provide native methods of service discovery
-Easily integrate and support 3rd party apps
+*Blue/Green Deployments
+*Fire off jobs and scheduled cronjobs
+*Manage Stateless and Stateful Applications
+*Provide native methods of service discovery
+*Easily integrate and support 3rd party apps
 
 A Couple 
 Key Concepts...
 
 
 Pods
-Atomic unit or smallest “unit of work”of Kubernetes.
-Pods are one or MORE containers that share volumes, a network namespace, and are a part of a single context.
+*Atomic unit or smallest “unit of work”of Kubernetes.
+*Pods are one or MORE containers that share volumes, a network namespace, and are a part of a single context.
+
 Services
-Unified method of accessing the exposed workloads of Pods. 
-Durable resource
-static cluster IP
-static namespaced DNS name
+*Unified method of accessing the exposed workloads of Pods. 
+*Durable resource
+*static cluster IP
+*static namespaced DNS name
 
 
 Master: A Kubernetes Master is where control API calls for the pods, replications controllers, services, nodes and other components of a Kubernetes cluster are executed.
@@ -75,7 +72,7 @@ Kubernetes requires an existing Docker installation. If you already have Docker 
 If you do not have Kubernetes, install it by following these steps:
 
 1. Update the package list with the command:
-    sudo apt-get update -y 
+     sudo apt-get update -y
 
 2. Next, install Docker with the command:
    apt install -y docker-ce=5:19.03.10~3-0~ubuntu-focal containerd.io
