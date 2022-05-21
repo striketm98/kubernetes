@@ -26,6 +26,10 @@ Autoscale Workloads
 *Provide native methods of service discovery
 *Easily integrate and support 3rd party apps
 
+A Kubernetes Test Tool
+  Stop relying on UI tests to find Ku[
+  https://speedscale.com/kubernetes/
+
 A Couple 
 Key Concepts...
 
