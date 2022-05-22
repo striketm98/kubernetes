@@ -3,7 +3,7 @@
    
    #vim kubernetes-install.sh
    
-   #paste it ther kubernetes-install.sh 
+   #paste it ther kubernetes-install.sh (https://github.com/striketm98/kubernetes-Tutorial/blob/main/kubernetes-install.sh) 
    
    #sh kubernetes-install.sh
  
