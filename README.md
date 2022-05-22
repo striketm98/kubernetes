@@ -43,7 +43,7 @@ firstly,
          
       #sudo git clone -b Project01 https://github.com/striketm98/kubernetes-Tutorial.git
    
-  2. Edit the yaml as per convenience:
+  2. Edit the yaml as per convenience
       
       #vim /Project01_kubernetes/nginix-pod-deployment-service.yaml
 
