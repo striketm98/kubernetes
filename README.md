@@ -1,25 +1,24 @@
-# kubernetes installation in UBUNTU 20.04 LTS
-   $sudo su -
-   
-   #vim kubernetes-install.sh
-   
-   #paste it ther kubernetes-install.sh (https://github.com/striketm98/kubernetes-Tutorial/blob/main/kubernetes-install.sh) 
-   
-   #sh kubernetes-install.sh
- 
- # kubernetes-dashboard installation in UBUNTU 20.04 LTS
+# Nginix deploy using kubernetes UBUNTU 20.04 LTS
 
-   edit the file as per requirement "ClusterIP","NodePort","LoadBalancer"
+firstly,
+   
+   1.git pull using the command 
+         
+      #sudo git clone -b Project01 https://github.com/striketm98/kubernetes-Tutorial.git
+   
+  2. Edit the yaml as per convenience:
 
-   #sh kubernetes-dashboard.sh;
-   
-   #sudo kubectl -n kubernetes-dashboard get svc
-   
-   #go to the any search engine
-   
-   https://<public_ip/dns>:asign port number 
-   
-   #add the token 
-   
-  # welcome to Kubernetes Dashboard !
+  3. apply the command: 
+      
+      #sudo kubectl apply -f nginix-pod-deployment-service.yaml
+      
+ 4. serach in Browser usnig any serach engine: 
+      
+      #http://<server_ip>/<dns>:30080 
+        
+
+
+
+
+
    
