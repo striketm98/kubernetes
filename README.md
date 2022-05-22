@@ -1,19 +1,22 @@
 # kubernetes installation in UBUNTU 20.04 LTS
-   $sudo su -
+   ```
+   sudo su -
    
-   #vim kubernetes-install.sh
+   vim kubernetes-install.sh
    
-   #paste it ther kubernetes-install.sh (https://github.com/striketm98/kubernetes-Tutorial/blob/main/kubernetes-install.sh) 
+   paste it ther kubernetes-install.sh (https://github.com/striketm98/kubernetes-Tutorial/blob/main/kubernetes-install.sh) 
    
-   #sh kubernetes-install.sh
+   sh kubernetes-install.sh 
+   ```
  
  # kubernetes-dashboard installation in UBUNTU 20.04 LTS
 
    edit the file as per requirement "ClusterIP","NodePort","LoadBalancer"
-
-   #sh kubernetes-dashboard.sh;
+```
+   sh kubernetes-dashboard.sh;
    
-   #sudo kubectl -n kubernetes-dashboard get svc
+   sudo kubectl -n kubernetes-dashboard get svc
+```   
    
    #go to the any search engine
    
