@@ -21,5 +21,5 @@
    
    #add the token 
    
-  # wellcome to Kubernetes Dashboard !
+  # welcome to Kubernetes Dashboard !
    
