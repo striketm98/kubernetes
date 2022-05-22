@@ -1,3 +1,40 @@
+# Assignment 01:
+
+# Deploy a web hosting service using kubernetes
+************************************************************************************************************
+
+Install Kubernetes with master and worker Node
+
+Create a Nginx Pod  (web hosting service)
+
+deploy the pod 
+
+Create a deployement file of Nginx
+
+Deploy it. 
+
+Create an service of Nginx Pod and host into the web browser  
+ 
+# System Requirement:
+************************************************************************************************************
+
+Os: ubuntu 20.04LTS
+
+instance: aws-ec2
+
+
+ram: 2 GB(master node)
+
+cpu  2 (master node)
+
+ram: 1 GB(worker node)
+
+cpu  1 (worker node)
+
+remote tool: vscode  
+
+****************************************************************************************************************************
+
 # Nginix deploy using kubernetes UBUNTU 20.04 LTS
 
 firstly,
