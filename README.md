@@ -9,11 +9,11 @@
  
  # kubernetes-dashboard installation in UBUNTU 20.04 LTS
 
-    #edit the file as per requirement "ClusterIP","NodePort","LoadBalancer"
+   edit the file as per requirement "ClusterIP","NodePort","LoadBalancer"
 
-   $sh kubernetes-dashboard.sh;
+   #sh kubernetes-dashboard.sh;
    
-   $sudo sudo kubectl -n kubernetes-dashboard get svc
+   #sudo kubectl -n kubernetes-dashboard get svc
    
    #go to the any search engine
    
