@@ -41,7 +41,7 @@ firstly,
    
    1.git pull using the command 
          
-      `sudo git clone -b Project01 https://github.com/striketm98/kubernetes-Tutorial.git`
+    sudo git clone -b Project01 https://github.com/striketm98/kubernetes-Tutorial.git 
    
   2. Edit the yaml as per convenience
       
