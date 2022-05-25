@@ -1,11 +1,10 @@
+
 # kubernetes installation in UBUNTU 20.04 LTS
    ```
    sudo su -
    
    vim kubernetes-install.sh
-   
-   paste it ther kubernetes-install.sh (https://github.com/striketm98/kubernetes-Tutorial/blob/main/kubernetes-install.sh) 
-   
+    
    sh kubernetes-install.sh 
    ```
  
@@ -20,7 +19,7 @@
    
    #go to the any search engine
    
-   https://<public_ip/dns>:asign port number 
+  ` https://<public_ip/dns>:asign port number` 
    
    #add the token 
    
